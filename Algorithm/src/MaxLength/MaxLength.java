@@ -7,8 +7,12 @@ package MaxLength;
  * Description: Given a string, find the length of the longest substring without
  * repeating characters. For example, the longest substring without repeating letters
  * for "abcabcbb" is "abc", which the length is 3.
+ * 
  */
 public class MaxLength {
+    /*
+    @param s -- is a character String. Assume each character is between 'a' and 'z'
+    */
     public int lengthOfLongestSubstring(String s) {
         //convert the current string into an array of characters
         char[] array = s.toCharArray();
